@@ -2,7 +2,7 @@
 # Memórias de Um Herói
 
 
-> link: https://felipefrancischetto.github.io/mdh.github.io/
+> link: https://memoriasdeumheroi.github.io/
 
 > Um jogo de memória desenvolvido em **JAVA**, **JavaFX** e **SQL**
 
