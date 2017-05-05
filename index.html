@@ -1,81 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
+
     <meta charset="utf-8">
-    <title>MDH</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Memórias de Um Herói</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/mdh.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-  
-<body>
-    
-    <nav>
-        <a href="#">MDH</a>
-        <ul>
-            <li><a href="#sobre">SOBRE</a></li>
-            <li><a href="#conteudo">CONTEÚDO</a></li>
-            <li><a href="#detalhes">DETALHES</a></li>
-            <li><a href="#contato">CONTATO</a></li>
-        </ul>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> <span class="light">MEMÓRIAS DE UM</span> HERÓI
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
-    <header>
-        <a href="#sobre" class="botao">VER MAIS</a>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">MEMÓRIAS DE <br>UM HERÓI</h1>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="sobre">
-        <h2>SOBRE</h2>
-        <p>Um projeto de fins acadêmicos que iremos continuar o desenvolvimento, mesmo após a apresentação acadêmica.</p>
-        <a href="#contato" class="botao">ENTRE EM CONTATO</a>
-    </section>
-
-    <section id="conteudo">
-        <h2>CONTEÚDO</h2>
-        <div>
-            <img src="img/configs.png" alt="Engrenagens">
-            <h3>Fácil Integração</h3>
-            <p>Integra facilmente seu site a qualquer gerenciador de conteúdo.</p>
-        </div>
-        <div>
-            <img src="img/hospedagem.png" alt="Servidor">
-            <h3>Hospedagem Moderna</h3>
-            <p>Não deixe seus clientes na mão. Tenha seu site 24hrs no ar.</p>
-        </div>
-        <div>
-            <img src="img/site.png" alt="Navegador">
-            <h3>Melhores Práticas</h3>
-            <p>Código legível, desenvolvido com as melhores práticas.</p>
-        </div>
-        <div>
-            <img src="img/coracao.png" alt="Coração">
-            <h3>Feito com Amor</h3>
-            <p>É melhor fazer seus sites com amor hoje em dia!</p>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>SOBRE MEMÓRIAS DE UM HERÓI</h2>
+                <p>Um jogo de memória desenvolvido na linguagem Java por alunos da Universidade Metodista de São Paulo.
+                        O jogo tem a proposta de proporcionar momentos de nostalgia no jogador, afinal o jogo contém personagens
+                         que foram icônicos para os videos-games.
+                </p>
+            </div>
         </div>
     </section>
 
-    <section id="detalhes">
-        <h2>DETALHES</h2>
-
-    </section>
-
-    <section id="contato">
-        <h2>CONTATO</h2>
-        <p>Entre em contato conosco.</p>
-        <div>
-            <img src="img/fone.png" alt="fone">
-            <p><a href="tel:xx55555555">(xx) 5555 5555</a></p>
-        </div>
-
-        <div>
-            <img src="img/contato.png" alt="email">
-            <p><a href="mailto:email@contato.com">email@contato.com</a></p>
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Comece a jogar!</h2>
+                    <p>Você pode fazer o download do nosso e começar a se divertir em nosso jogo open-source!</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" target="_blank" class="btn btn-default btn-lg">Download</a>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contato</h2>
+                
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/memoriasdeumheroi/mdh" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Desenvolvido por 6ixtechsolutions.</p>
+        <div class="container text-center">
+            <p>Desenvolvido por 6IX Technologic Solutions</p>
+        </div>
     </footer>
-    
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/mdh.min.js"></script>
+
 </body>
 </html>
