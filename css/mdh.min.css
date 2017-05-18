@@ -85,7 +85,8 @@ a:focus {
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.8em;
+  text-shadow: 1px 1px black;
 }
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -250,7 +251,7 @@ a:focus {
     padding-top: 100px;
   }
   .download-section {
-    padding: 150px 0;
+    padding: 180px 0;
   }
 }
 .btn {
